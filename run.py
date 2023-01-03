@@ -48,9 +48,3 @@ def login(USERNAME,PASSWORD,url="http://192.168.1.1") -> bool:
         if error in request:
             return False
     return True
-
-
-USERNAME = "admin"
-PASSWORD = "testpass"
-
-print(login(USERNAME,PASSWORD))
